@@ -1,15 +1,8 @@
-# Titanic dataset
-## Binary classification problem
+# Titanic ML competition
 
-The Titanic dataset present a binary classification problem, where the goal is to predict whether a passenger survived or not. 
+The Titanic ML competition on Kaggle present an opportunity for practitioners to explore machine learning techniques and familiarize themselves with the how the Kaggle platform works. The dataset is small, imbalanced and contains missing values, which makes it a good dataset to practice data preprocessing and feature engineering techniques.
 
-The dataset is split into two files: train.csv and test.csv. The train.csv file contains the training data, while the test.csv file contains the test data. The test data does not contain the Survived column, which is the target variable. The goal is to predict the Survived column for the test data.
-
-Notes: 
-- The dataset is small, with only 891 samples in the training data.
-- The dataset is imbalanced, with 549 samples of class 0 and 342 samples of class 1.
-- The dataset contains missing values that need to be handled
-- The dataset contains categorical variables that need to be encoded
+A binary classification problem is presented, where the goal is to predict whether a passenger survived or not. The dataset is split into two files: train.csv and test.csv. The train.csv file contains the training data, while the test.csv file contains the test data. The test data does not contain the Survived column, which is the target variable. The goal is to predict the Survived column for the test data.
 
 The dataset is available on [Kaggle](https://www.kaggle.com/c/titanic) and contains the following columns:
 
@@ -26,8 +19,9 @@ The dataset is available on [Kaggle](https://www.kaggle.com/c/titanic) and conta
 | cabin    | Cabin number                        |                            |
 | embarked | Port of Embarkation                 | C = Cherbourg, Q = Queenstown, S = Southampton |
 
+---
 
-### Tuned Model Performance
+### Resulting Model Performance
 
 | Model                | Accuracy | Accuracy       | Test set  | Test set   |
 |----------------------|----------|----------------|-----------|------------|
