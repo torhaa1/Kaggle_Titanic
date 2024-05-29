@@ -27,3 +27,16 @@ The dataset is available on [Kaggle](https://www.kaggle.com/c/titanic) and conta
 | embarked | Port of Embarkation                 | C = Cherbourg, Q = Queenstown, S = Southampton |
 
 
+### Tuned Model Performance
+
+| Model                | Accuracy | Accuracy       | Test set  | Test set   |
+|----------------------|----------|----------------|-----------|------------|
+|                      | Baseline | Tuned model    | 1st submission | reduced overfit |
+| Logistic Regression  | 80.5     | 80.9           | 74.880    | 75.598     |
+| Random Forest subset | 78.7     | 80.0           | 77.751     | 77.272     |
+| Random Forest all    | 82.2     | 82.4           | 76.315    | 77.990     |
+| SVM                  | 82.4     | 81.7           | 66.985    | 77.751     |
+| XGBoost              | 82.0     | 83.7           | 76.076    | 76.555     |
+| Gradient Boosting    | 82.3     | 83.4           | 76.315    | 77.272     |
+
+The Random Forest model performed best with an accuracy of 77.99% on the test set (top 22.3%).
