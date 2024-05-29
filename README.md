@@ -1,6 +1,6 @@
 # Titanic ML competition
 
-The Titanic ML competition on Kaggle present an opportunity for practitioners to explore machine learning techniques and familiarize themselves with the how the Kaggle platform works. The dataset is small, imbalanced and contains missing values, which makes it a good dataset to practice data preprocessing and feature engineering techniques.
+The Titanic ML competition on Kaggle is a challenge made for practitioners to explore machine learning techniques and familiarize themselves with the how the Kaggle platform works. The dataset is small, imbalanced and contains missing values, which makes it a good dataset to practice data preprocessing and feature engineering techniques.
 
 A binary classification problem is presented, where the goal is to predict whether a passenger survived or not. The dataset is split into two files: train.csv and test.csv. The train.csv file contains the training data, while the test.csv file contains the test data. The test data does not contain the Survived column, which is the target variable. The goal is to predict the Survived column for the test data.
 
